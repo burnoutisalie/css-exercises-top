@@ -1,0 +1,12 @@
+.btn-champion {
+  background-color: hsl(0, 100%, 0%);
+  color: rgb(255, 255, 255);
+}
+.btn-challenger {
+  background-color: #ff0;
+}
+.btn-champion,
+.btn-challenger {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
