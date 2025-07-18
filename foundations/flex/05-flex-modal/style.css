@@ -82,10 +82,9 @@ button.cancel {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 8px;
 }
 
-.not-icon {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.text {
+  margin-bottom: 16px;
 }
