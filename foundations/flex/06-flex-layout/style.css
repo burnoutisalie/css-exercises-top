@@ -7,8 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 }
 
 img {
@@ -50,7 +48,6 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  align-self: stretch;
 }
 
 .footer {
@@ -64,10 +61,10 @@ button {
 }
 
 .content {
-  text-align: center;
-}
-
-.content img,
-.input {
-  margin-bottom: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px
 }
